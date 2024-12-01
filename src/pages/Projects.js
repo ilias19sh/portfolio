@@ -30,7 +30,7 @@ const Projects = () => {
     },
     {
         title: "Panier E-commerce faite en 1h",
-        description: "Panier de e-commerce que j'ai faite en 1h pour mon évaluation finale à Barcelone",
+        description: "Panier de e-commerce que j'ai fait en 1h pour mon évaluation finale à Barcelone",
         technologies: ["React, CSS"],
         image: "/Images/finaltask-barcelone.png",
         githubLink: "https://github.com/ilias19sh/Final_task_Ilias",

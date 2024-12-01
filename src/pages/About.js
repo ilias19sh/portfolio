@@ -23,7 +23,7 @@ const About = () => {
     {
       title: "Astronomie",
       icon: <FaUserAstronaut className="text-3xl text-white" />,
-      description: "Fasciné par l'exploration spatiale et les mystères de l'univers. Ce qui me passione le plus, c'est les trous noir.",
+      description: "Fasciné par l'exploration spatiale et les mystères de l'univers. Ce qui me passione le plus, ce sont les trous noirs.",
     },
   ];
 
@@ -73,7 +73,7 @@ const About = () => {
             <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600 text-3xl font-bold">Mon Parcours</h2>
             <p className="text-gray-300 leading-relaxed">
               Depuis mon plus jeune âge, je me suis toujours intéressé à la technologie et son potentiel pour améliorer notre quotidien. 
-              Cet curiositée m'a naturellement conduit vers le développement web, où je peux combiner créativité et résolution de problèmes.
+              Cette curiosité m'a naturellement conduit vers le développement web, où je peux combiner créativité et résolution de problèmes.
             </p>
             <p className="text-gray-300 leading-relaxed">
               Aujourd'hui, je souhaite me spécialiser dans le développement full stack, avec une affinité particulière pour les technologies modernes 
