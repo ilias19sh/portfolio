@@ -14,7 +14,7 @@ const Home = () => {
       title: "Mission Humanitaire - Sénégal",
       date: "Octobre 2022",
       description: "Participation à un projet de construction d'école et formation en informatique pour les jeunes",
-      image: '/Images/voyage-senegal.jpg',
+      image: '/Images/voyage-senegal.png',
       type: "humanitaire",
     },
     {
