@@ -1,0 +1,116 @@
+.circles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.circle {
+  position: absolute;
+  display: block;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: transform 0.2s ease-out;
+  will-change: transform;
+  width: 6px;
+  height: 6px;
+}
+
+/* Distribution des cercles */
+.circle:nth-child(1) { left: 5vw; top: 10vh; animation-delay: 0s; }
+.circle:nth-child(2) { left: 15vw; top: 20vh; animation-delay: 0.2s; }
+.circle:nth-child(3) { left: 25vw; top: 30vh; animation-delay: 0.4s; }
+.circle:nth-child(4) { left: 35vw; top: 40vh; animation-delay: 0.6s; }
+.circle:nth-child(5) { left: 45vw; top: 50vh; animation-delay: 0.8s; }
+.circle:nth-child(6) { left: 55vw; top: 60vh; animation-delay: 1s; }
+.circle:nth-child(7) { left: 65vw; top: 70vh; animation-delay: 1.2s; }
+.circle:nth-child(8) { left: 75vw; top: 80vh; animation-delay: 1.4s; }
+.circle:nth-child(9) { left: 85vw; top: 90vh; animation-delay: 1.6s; }
+.circle:nth-child(10) { left: 95vw; top: 95vh; animation-delay: 1.8s; }
+.circle:nth-child(11) { left: 10vw; top: 85vh; animation-delay: 2s; }
+.circle:nth-child(12) { left: 20vw; top: 75vh; animation-delay: 2.2s; }
+.circle:nth-child(13) { left: 30vw; top: 65vh; animation-delay: 2.4s; }
+.circle:nth-child(14) { left: 40vw; top: 55vh; animation-delay: 2.6s; }
+.circle:nth-child(15) { left: 50vw; top: 45vh; animation-delay: 2.8s; }
+.circle:nth-child(16) { left: 60vw; top: 35vh; animation-delay: 3s; }
+.circle:nth-child(17) { left: 70vw; top: 25vh; animation-delay: 3.2s; }
+.circle:nth-child(18) { left: 80vw; top: 15vh; animation-delay: 3.4s; }
+.circle:nth-child(19) { left: 90vw; top: 5vh; animation-delay: 3.6s; }
+.circle:nth-child(20) { left: 95vw; top: 15vh; animation-delay: 3.8s; }
+.circle:nth-child(21) { left: 8vw; top: 12vh; animation-delay: 4s; }
+.circle:nth-child(22) { left: 18vw; top: 22vh; animation-delay: 4.2s; }
+.circle:nth-child(23) { left: 28vw; top: 32vh; animation-delay: 4.4s; }
+.circle:nth-child(24) { left: 38vw; top: 42vh; animation-delay: 4.6s; }
+.circle:nth-child(25) { left: 48vw; top: 52vh; animation-delay: 4.8s; }
+.circle:nth-child(26) { left: 58vw; top: 62vh; animation-delay: 5s; }
+.circle:nth-child(27) { left: 68vw; top: 72vh; animation-delay: 5.2s; }
+.circle:nth-child(28) { left: 78vw; top: 82vh; animation-delay: 5.4s; }
+.circle:nth-child(29) { left: 88vw; top: 92vh; animation-delay: 5.6s; }
+.circle:nth-child(30) { left: 92vw; top: 97vh; animation-delay: 5.8s; }
+.circle:nth-child(31) { left: 13vw; top: 88vh; animation-delay: 6s; }
+.circle:nth-child(32) { left: 23vw; top: 78vh; animation-delay: 6.2s; }
+.circle:nth-child(33) { left: 33vw; top: 68vh; animation-delay: 6.4s; }
+.circle:nth-child(34) { left: 43vw; top: 58vh; animation-delay: 6.6s; }
+.circle:nth-child(35) { left: 53vw; top: 48vh; animation-delay: 6.8s; }
+.circle:nth-child(36) { left: 63vw; top: 38vh; animation-delay: 7s; }
+.circle:nth-child(37) { left: 73vw; top: 28vh; animation-delay: 7.2s; }
+.circle:nth-child(38) { left: 83vw; top: 18vh; animation-delay: 7.4s; }
+.circle:nth-child(39) { left: 93vw; top: 8vh; animation-delay: 7.6s; }
+.circle:nth-child(40) { left: 97vw; top: 18vh; animation-delay: 7.8s; }
+.circle:nth-child(41) { left: 7vw; top: 15vh; animation-delay: 8s; }
+.circle:nth-child(42) { left: 17vw; top: 25vh; animation-delay: 8.2s; }
+.circle:nth-child(43) { left: 27vw; top: 35vh; animation-delay: 8.4s; }
+.circle:nth-child(44) { left: 37vw; top: 45vh; animation-delay: 8.6s; }
+.circle:nth-child(45) { left: 47vw; top: 55vh; animation-delay: 8.8s; }
+.circle:nth-child(46) { left: 57vw; top: 65vh; animation-delay: 9s; }
+.circle:nth-child(47) { left: 67vw; top: 75vh; animation-delay: 9.2s; }
+.circle:nth-child(48) { left: 77vw; top: 85vh; animation-delay: 9.4s; }
+.circle:nth-child(49) { left: 87vw; top: 95vh; animation-delay: 9.6s; }
+.circle:nth-child(50) { left: 91vw; top: 99vh; animation-delay: 9.8s; }
+
+.circle {
+  animation: moveAround 20s linear infinite;
+}
+
+@keyframes moveAround {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(20vw, 20vh) rotate(90deg);
+  }
+  50% {
+    transform: translate(-20vw, 40vh) rotate(180deg);
+  }
+  75% {
+    transform: translate(20vw, -20vh) rotate(270deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+/* Variations d'animation */
+.circle:nth-child(odd) {
+  animation-direction: reverse;
+}
+
+.circle:nth-child(3n) {
+  animation-duration: 25s;
+}
+
+.circle:nth-child(3n+1) {
+  animation-duration: 35s;
+}
+
+.circle:nth-child(5n) {
+  animation-duration: 45s;
+}
+
+/* Mode sombre */
+.dark .circle {
+  background: rgba(255, 255, 255, 0.08);
+}
