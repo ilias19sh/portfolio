@@ -28,7 +28,7 @@ const Home = () => {
       title: "Formation E-commerce - Barcelone",
       date: "Octobre 2024",
       description: "Formation en React chez un campus partenaire et visites d'entreprises",
-      image: "/Images/Barcelone.jpg",
+      image: "/Images/Barcelone.JPG",
       type: "professionnel",
     },
     {
