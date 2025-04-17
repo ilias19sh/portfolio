@@ -5,12 +5,44 @@ import { animationPageTransition } from '../components/context/AnimationPageTran
 const Projects = () => {
   const projects = [
     {
+      title: "Nextu App",
+      description: "Application complète style réseau sociaux, comprenant le front-end, le back-end, la base de données, etc... et système d'authentification'",
+      technologies: ["Vue.js", "Node.js", "PostgreSQL", "UML", "Vite"],
+      image: "/Images/nextuapp.png", 
+      githubLink: "https://github.com/ilias19sh/nextuapp",
+      liveLink: "https://portfolio-ilias.vercel.app",
+    },
+    {
+      title: "TemoinX",
+      description: "Projet lors d'un code camp d'une semaine, une application qui permet de signaler via une carte interactive et de récupérer les statistiques en fonction de ces signalements. Système d'authentification",
+      technologies: ["React.js", "Node.js", "PostgreSQL", "UML", "API Google Maps"],
+      image: "/Images/code_camp.png", 
+      githubLink: "https://github.com/ilias19sh/Code_camp",
+      liveLink: "https://portfolio-ilias.vercel.app",
+    },
+    {
+      title: "Usine connectée",
+      description: "Projet de groupe, création d'une usine connectée en Arduino, avec une balance, un micro-onde, une interface de gestion, etc...",
+      technologies: ["Arduino", "C++", "Strawberry"],
+      image: "/Images/arduino.jpg", 
+      githubLink: "https://github.com/ilias19sh/portfolio",
+      liveLink: "https://portfolio-ilias.vercel.app",
+    },
+    {
+      title: "App Django",
+      description: "Projet réalisé lors de la piscine webtech en 1 semaine, cette application Django permet de répertorier des footballeurs ainsi que leurs clubs de foot.",
+      technologies: ["Django", "Python"],
+      image: "/Images/django.jpg", 
+      githubLink: "https://github.com/ilias19sh/Projet_django",
+      liveLink: "https://portfolio-ilias.vercel.app",
+    },
+    {
       title: "Portfolio Personnel",
       description: "Portfolio créé avec React et Tailwind CSS, présentant mes compétences et projets.",
       technologies: ["React", "Tailwind CSS", "Framer Motion"],
       image: "/Images/Portfolio.png", 
       githubLink: "https://github.com/votre-username/portfolio",
-      liveLink: "https://votre-portfolio.com",
+      liveLink: "https://portfolio-ilias.vercel.app",
     },
     {
         title: "Application de réservation pour évènement sportif",
@@ -23,7 +55,7 @@ const Projects = () => {
     {
       title: "Application E-commerce",
       description: "Application de e-commerce visant à une vente de produits du FcBarcelone X Nike lors de mon voyage à Barcelone.",
-      technologies: ["React", "Postgresql", "Directus", "Docker","Stripe"],
+      technologies: ["React", "Postgresql", "Directus", "Docker","API Stripe"],
       image: "/Images/Barcelone-projet.png",
       githubLink: "https://github.com/ilias19sh/Projet-Barcelone",
       liveLink: "https://votre-ecommerce.com",
@@ -38,7 +70,7 @@ const Projects = () => {
       },
       {
         title: "Horloge avec plusieurs fonctionnalités.",
-        description: "Application d'horloge avec plusieurs fonctionnalités comme le chronomètre, le minuteuteur et l'alarme.",
+        description: "Application d'horloge avec plusieurs fonctionnalités comme le chronomètre, le minuteur et l'alarme.",
         technologies: ["HTML", "CSS", "JavaScript"],
         image: "/Images/Horloge.png",
         githubLink: "https://github.com/ilias19sh/",

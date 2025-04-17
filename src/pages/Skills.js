@@ -1,23 +1,28 @@
 import { motion } from 'framer-motion';
 import { animationPageTransition } from '../components/context/AnimationPageTransition';
-import { SiJavascript, SiNodedotjs, SiPython, SiDocker, SiGit, SiTailwindcss } from 'react-icons/si';
+import { SiJavascript, SiNodedotjs, SiPython, SiDocker, SiGit, SiTailwindcss, SiNextdotjs, SiDjango } from 'react-icons/si';
 import { FaLightbulb, FaBrain, FaUsers, FaChartLine, FaClock, FaSearchPlus, FaReact, FaVuejs, FaHtml5, FaCss3Alt, FaDatabase, FaPhp } from 'react-icons/fa';
 
 
 const Skills = () => {
   const hardSkills = [
-    { name: 'React', icon: <FaReact />, level: 75, color: 'blue' },
-    { name: 'JavaScript', icon: <SiJavascript />, level: 70, color: 'yellow' },
+    { name: 'React', icon: <FaReact />, level: 70, color: 'blue' },
+    { name: 'JavaScript', icon: <SiJavascript />, level: 75, color: 'yellow' },
     { name: 'Node.js', icon: <SiNodedotjs />, level: 70, color: 'green' },
     { name: 'Vue.js', icon: <FaVuejs />, level: 70, color: 'green' },
-    { name: 'Python', icon: <SiPython />, level: 75, color: 'blue' },
+    { name: 'Python', icon: <SiPython />, level: 80, color: 'blue' },
     { name: 'Tailwind', icon: <SiTailwindcss />, level: 70, color: 'blue' },
+    { name: 'Next.js', icon: <SiNextdotjs />, level: 65, color: 'blue' },
+    { name: 'Django', icon: <SiDjango />, level: 75, color: 'green' },
+    { name: 'API REST', icon: <FaLightbulb />, level: 85, color: 'purple' },
+    { name: 'React Native', icon: <FaReact />, level: 70, color: 'blue' },
     { name: 'Html', icon: <FaHtml5 />, level: 92, color: 'orange' },
     { name: 'Css', icon: <FaCss3Alt />, level: 88, color: 'blue' },
     { name: 'SQL', icon: <FaDatabase />, level: 85, color: 'pink' },
     { name: 'Php', icon: <FaPhp />, level: 55, color: 'blue' },
     { name: 'Docker', icon: <SiDocker />, level: 65, color: 'blue' },
-    { name: 'Git', icon: <SiGit />, level: 70, color: 'orange' }
+    { name: 'Git', icon: <SiGit />, level: 80, color: 'orange' },
+
   ];
 
   const softSkills = [

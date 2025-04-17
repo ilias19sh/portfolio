@@ -18,6 +18,13 @@ const Experience = () => {
         period: "Avril 2024 - Mai 2024",
         description: "Création d'interface utilisateur modernes et réactives. Création et gestion de base de données, équipe de 2 développeurs.",
         technologies: ["React native", "SQL", "Expo Go", "docker", "git"]
+      },
+      {
+        title: "Stage Développeur Back-end",
+        company: "Arimayi",
+        period: "Mars 2025 - Mai 2025",
+        description: "Travail dans une équipe de développeurs back-end en étroite collaboration avec l'équipe front-end, gestion du back-end, développement de fonctionnalités robustes.",
+        technologies: ["Django", "PostgreSQL", "docker", "git", "Python"]
       }
     ],
     volunteer: [

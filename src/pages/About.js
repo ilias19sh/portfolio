@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaCode, FaLaptop, FaGamepad, FaMusic } from 'react-icons/fa';
-import { FaLaptopCode, FaGlobeAmericas, FaUserAstronaut } from 'react-icons/fa';
+import { FaLaptopCode, FaGlobeAmericas, FaChessKnight } from 'react-icons/fa';
 import { GiBoxingGlove } from 'react-icons/gi';
 
 const About = () => {
@@ -21,9 +21,9 @@ const About = () => {
       description: "Découvrir de nouvelles cultures, rencontrer des gens et élargir mes horizons à travers le monde.",
     },
     {
-      title: "Astronomie",
-      icon: <FaUserAstronaut className="text-3xl text-white" />,
-      description: "Fasciné par l'exploration spatiale et les mystères de l'univers. Ce qui me passione le plus, ce sont les trous noirs.",
+      title: "Echecs",
+      icon: <FaChessKnight className="text-3xl text-white" />,
+      description: "Passionné par le jeu d'échecs, j'apprécie la stratégie et la tactique qui y sont impliquées. C'est un jeu qui nécessite une grande concentration et une vision à long terme.",
     },
   ];
 
@@ -41,7 +41,7 @@ const About = () => {
             À Propos de Moi
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed mb-12">
-          Étudiant en deuxième année en informatique, passionné par le développement web et la création de projets. 
+          Étudiant en deuxième année en informatique, passionné par le développement informatique et la création de projets. 
           Je combine mon envie d'apprendre avec des compétences techniques en constante évolution pour relever des défis ambitieux.
           </p>
         </motion.div>
@@ -56,8 +56,8 @@ const About = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden">
               <img
-                src="/path/to/your/photo.jpg"
-                alt="Votre photo"
+                src='/Images/ilias.jpg'
+                alt="Photo Ilias"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -73,11 +73,11 @@ const About = () => {
             <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600 text-3xl font-bold">Mon Parcours</h2>
             <p className="text-gray-300 leading-relaxed">
               Depuis mon plus jeune âge, je me suis toujours intéressé à la technologie et son potentiel pour améliorer notre quotidien. 
-              Cette curiosité m'a naturellement conduit vers le développement web, où je peux combiner créativité et résolution de problèmes.
+              Cette curiosité m'a naturellement conduit vers le développement informatique, où je peux combiner créativité et résolution de problèmes.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              Aujourd'hui, je souhaite me spécialiser dans le développement full stack, avec une affinité particulière pour les technologies modernes 
-              comme React, Node.js ainsi que le management de projets.
+              Mon objectif est de me spécialiser dans le domaine de l'IA, tout en gardant un intérêt pour tous les aspects du développement. 
+              J'ai une affinité particulière pour les technologies modernes telles que React, Node.js et le management de projets.
             </p>
           </motion.div>
         </div>

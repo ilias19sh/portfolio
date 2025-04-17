@@ -108,14 +108,15 @@ const Home = () => {
               >
                 Voir mes projets
               </motion.button>
-              <motion.button
+              <motion.a
                 className="px-8 py-3 border border-purple-500 rounded-full font-semibold"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => navigate('/Contact')}
+                href="/CV-ilias2025.pdf"
+                download
               >
-                Me contacter
-              </motion.button>
+                Télécharger mon CV
+              </motion.a>
             </motion.div>
           </div>
 

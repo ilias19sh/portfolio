@@ -20,7 +20,7 @@ const Footer = () => {
               Ilias Hanfaoui
             </motion.div>
             <p className="text-gray-400">
-              Étudiant passioné par la programmation et le développement web
+              Étudiant passionné par le développement informatique et la programmation
             </p>
           </div>
 
