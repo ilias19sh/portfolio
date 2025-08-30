@@ -6,11 +6,18 @@ const Experience = () => {
   const experiences = {
     professional: [
       {
-        title: "Stage Développeur web",
-        company: "C2S",
-        period: "Février 2024 - Mars 2024",
-        description: "Développement d'applications web complexes utilisant React, Node.js et des CMS. Dans une équipe de 4 développeurs.",
-        technologies: ["React", "Node.js", "Wordpress", "Odoo", "git"]
+        title: "Alternance Ingénieur en développement informatique",
+        company: "Decathlon",
+        period: "2025 - 2026",
+        description: "Création d'interface utilisateur modernes et réactives. Participations aux développement de solution scalable",
+        technologies: ["React", "Typescript", "Python", "docker", "git"]
+      },
+      {
+        title: "Stage Développeur Back-end",
+        company: "Arimayi",
+        period: "Mars 2025 - Mai 2025",
+        description: "Travail dans une équipe de développeurs back-end en étroite collaboration avec l'équipe front-end, gestion du back-end, développement de fonctionnalités robustes.",
+        technologies: ["Django", "PostgreSQL", "docker", "git", "Python"]
       },
       {
         title: "Stage Concepteur d'application mobile",
@@ -20,12 +27,13 @@ const Experience = () => {
         technologies: ["React native", "SQL", "Expo Go", "docker", "git"]
       },
       {
-        title: "Stage Développeur Back-end",
-        company: "Arimayi",
-        period: "Mars 2025 - Mai 2025",
-        description: "Travail dans une équipe de développeurs back-end en étroite collaboration avec l'équipe front-end, gestion du back-end, développement de fonctionnalités robustes.",
-        technologies: ["Django", "PostgreSQL", "docker", "git", "Python"]
-      }
+        title: "Stage Développeur web",
+        company: "C2S",
+        period: "Février 2024 - Mars 2024",
+        description: "Développement d'applications web complexes utilisant React, Node.js et des CMS. Dans une équipe de 4 développeurs.",
+        technologies: ["React", "Node.js", "Wordpress", "Odoo", "git"]
+      },
+      
     ],
     volunteer: [
       {
@@ -51,7 +59,7 @@ const Experience = () => {
       {
         title: "Certifications Openclassrooms",
         domain: "Front-end, Back-end, etc...",
-        year: "2023-2024",
+        year: "2023-2025",
         description: "Diverses certifications front-end, back-end, comprenant des modules tel que : JavaScript, React, Python, Git, UI/UX etc..."
       },
       {
@@ -61,9 +69,9 @@ const Experience = () => {
         description: "Certification en anglais professionnel validant un niveau B2"
       },
       {
-        title: "Projet Voltaire (en cours)",
+        title: "Projet Voltaire",
         domain: "Certification du niveau de Français",
-        year: "2023-2024",
+        year: "2025",
         description: "Niveau Excellence en orthographe et grammaire française"
       }
       
